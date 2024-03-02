@@ -1,0 +1,86 @@
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.title-section{
+    font-size: 1.7rem;
+    color: #2c2c2c;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.list-nav{
+    align-items: center;
+}
+.list-nav a{
+    font-size: 1.2rem;
+    color: #2c2c2c;
+    padding: 8px 20px;
+}
+.list-nav a:hover{
+    background-color: #ccc;
+}
+#home{
+    position: relative;
+}
+#home img{
+    width: 100%;
+    height: auto;
+}
+.search-room{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.form-search label{
+    display: block;
+    text-transform: capitalize;
+    color: #363636;
+}
+.form-search input{
+    min-width: 100%;
+    min-height: 2.5rem;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+.form-search button{
+    min-height: 2.5rem;
+}#room label{
+    text-transform: capitalize;
+    color: #222222;
+}
+#room input{
+    min-width: 100%;
+    min-height: 2.5rem;
+    border: 1px solid #7c7c7c;
+    padding-left: 10px;
+}
+#room button{
+    min-width: 100%;
+    min-height: 2.5rem;
+    text-transform: capitalize;
+    border: none;
+}
+.card{
+    border-radius: 0;
+}
+.card-img-top{
+    border-radius: 0;
+}
+.card-title{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.card span{
+    display: block;
+}
+.map img{
+    width: 100%;
+}
+#our-hotel img{
+    width: 100%;
+}
