@@ -41,7 +41,6 @@ li{
     transform: translateY(-50%);
 }
 .form-search label{
-    display: block;
     text-transform: capitalize;
     color: #363636;
 }

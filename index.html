@@ -25,28 +25,28 @@
     <main class="container-fluid ">
         <section id="home" class="row">
             <img src="./assets/images/hotel-slider.jpg" alt="hotel">
-            <article class="search-room container bg-white col-6 px-0">
+            <article class="search-room container bg-white col-6 px-0 d-none d-sm-block">
                 <header class="text-bg-danger py-2 container">
                     <h2>Hotel name</h2>
                 </header>
                 <form class=" form-search container row mx-0 pe-0" action="">
-                    <div class="check-in-out row d-flex pe-0 my-2">
+                    <div class="check-in-out row pe-0 my-2">
                        <div class="col-6">
-                            <label for="check-in">check-in</label>
+                            <label class="form-label" for="check-in">check-in</label>
                             <input  id="check-in" type="date">
                        </div>
                         <div class="col-6">
-                            <label for="check-out">check-out</label>
+                            <label class="form-label" for="check-out">check-out</label>
                             <input  id="check-out" type="date">
                         </div>
                     </div>
-                    <div class="customer row d-flex pe-0 my-2">
+                    <div class="customer row pe-0 my-2">
                       <div class="col-6">
-                            <label for="adults">Adults</label>
+                            <label class="form-label" for="adults">Adults</label>
                             <input id="adults" type="number" value="1" min="1" max="30">
                       </div>
                        <div class="col-6">
-                            <label for="kids">Kids</label>
+                            <label class="form-label" for="kids">Kids</label>
                             <input id="kids" type="number" value="1" min="1" max="100">
                        </div>
                     </div>
@@ -58,29 +58,29 @@
             <h3 class="title-section">rooms</h3>
             <span class="my-3">Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</span>
             <form class="row">
-                <div class="col-3 my-3">
-                    <label class="d-block" for="check-in">check-in</label>
+                <div class="col-lg-3 col-md-6 col-12 my-3">
+                    <label class="form-label" for="check-in">check-in</label>
                     <input type="date">
                 </div>
-                <div class="col-3 my-3">
-                    <label class="d-block" for="check-out">check-out</label>
+                <div class="col-lg-3 col-md-6 col-12 my-3">
+                    <label class="form-label" for="check-out">check-out</label>
                     <input type="date">
                 </div>
-                <div class="col-2 my-3">
-                    <label class="d-block" for="adults">Adults</label>
+                <div class="col-lg-2 col-md-6 col-12 my-3">
+                    <label class="form-label" for="adults">Adults</label>
                     <input id="adults" type="number" value="1" min="1" max="30">
               </div>
-               <div class="col-2 my-3">
-                    <label class="d-block" for="kids">Kids</label>
+               <div class="col-lg-2 col-md-6 col-12 my-3">
+                    <label class="form-label" for="kids">Kids</label>
                     <input id="kids" type="number" value="1" min="1" max="100">
                </div>
-                <div class="col-2 my-3">
-                <label class="d-block">Search</label>
+                <div class="col-lg-2 col-12 my-3">
+                <label class="form-label">Search</label>
                 <button type="submit" class="text-bg-danger">search</button>
                 </div>
             </form>
             <div class="container-fluid row gx-1 my-4">
-                <div class=" card col-4">
+                <div class=" card col-lg-4 col-12 mb-3">
                     <img src="./assets/images/rooms/room_single.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">single room</h5>
@@ -91,7 +91,7 @@
                       <a href="#" class="btn btn-dark">Choose room</a>
                     </div>
                   </div>
-                <div class="card col-4">
+                <div class="card col-lg-4 col-12 mb-3">
                     <img src="./assets/images/rooms/room_double.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">double room</h5>
@@ -102,7 +102,7 @@
                       <a href="#" class="btn btn-dark">Choose room</a>
                     </div>
                   </div>
-                <div class="card col-4">
+                <div class="card col-lg-4 col-12 mb-3">
                     <img src="./assets/images/rooms/room_deluxe.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">deluxy room</h5>
@@ -117,7 +117,7 @@
         </section>
         <section id="about" class="py-4" >
            <div class="row about-content">
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <h3 class="title-section">about</h3>
                     <p>Our hotel is one of a kind. It is truely amazing. 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -132,7 +132,7 @@
                         magna aliqua. Ut enim ad minim veniam.
                     </p>
                 </div>
-                <div class="col-8 map">
+                <div class="col-lg-8 col-12 map">
                     <img src="./assets/images/map.jpg" alt="map">
                 </div>
            </div>
@@ -156,10 +156,10 @@
             <h3 class="title-section">our hotel</h3>
             <span>You can find our hotels anywhere in the world:</span>
             <div class="row my-5">
-                <div class="col-6">
+                <div class="col-lg-6 col-12 mb-3">
                     <img src="./assets/images/our-hotel/cinqueterre.jpg" alt="">
                 </div>
-                <div class="col-6 row">
+                <div class="col-lg-6 col-12 row">
                     <div class="col-6 ">
                         <img class="mb-5" src="./assets/images/our-hotel/newyork2.jpg" alt="">
                         <img src="./assets/images/our-hotel/paris.jpg" alt="">
